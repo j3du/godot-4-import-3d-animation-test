@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8u837uea7usu"]
+
+[ext_resource type="PackedScene" uid="uid://cx6mqppe0ilom" path="res://test.tscn" id="1_s8bip"]
+
+[node name="World" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.953533, 0.301288, 0, -0.301288, 0.953533, 0, 1.18784, 5.33724)
+
+[node name="test" parent="." instance=ExtResource( "1_s8bip" )]
